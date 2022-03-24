@@ -1,0 +1,60 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #eee;
+  margin: 0;
+}
+
+#container {
+  background-color: #fff;
+  border: 1px #666 solid;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px 12px;
+  width: 500px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2em;
+  margin: 4px 0px;
+}
+
+h2 {
+  color: #888;
+  font-size: 1.2em;
+  margin: 0;
+  margin-left: 1px;
+}
+
+.portrait {
+  height: 68px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+.who {
+  flex-grow: 1;
+}
+
+.contact {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 3px;
+  margin-right: 6px;
+}
+
+.contact li {
+  text-align: right;
+  padding: 2px 0px;
+}
+
+.contact li a {
+  color: #03a;
+  text-decoration: none;
+}
